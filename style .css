@@ -1,19 +1,12 @@
- html{
-  font-size: 20px;
- }
- 
- body{
+body{
   font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
   text-align: center;
-}
-h1{
-  font-size: 2em; /* 2 times the root size */
-}
-#parent p{
-  font-weight: bold; /* Bolds p elements inside the #parent element */
+
+
+  
 }
 
-/* Other existing styles */
 .text-bold{
   font-weight: bold; /* 太字にする */
 }
