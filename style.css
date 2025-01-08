@@ -1,5 +1,5 @@
  html{
-  font-size: 20px;
+  font-size: 16px;
  }
  
  body{
@@ -7,10 +7,10 @@
   text-align: center;
 }
 h1{
-  font-size: 2em; /* 2 times the root size */
+  font-size: 2rem; 
 }
-#parent p{
-  font-weight: bold; /* Bolds p elements inside the #parent element */
+#parent > p{
+  font-weight: bold; 
 }
 
 /* Other existing styles */
