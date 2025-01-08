@@ -1,0 +1,41 @@
+ html{
+  font-size: 16px;
+ }
+ 
+ body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 2rem; 
+}
+#parent > p{
+  font-weight: bold; 
+}
+
+/* Other existing styles */
+.text-bold{
+  font-weight: bold; /* 太字にする */
+}
+
+#first-heabing{
+  /* ここにGoogle Fontsを指定します */
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  letter-spacing: 1.2em;
+  border-bottom: 3px solid  rgb(115,115,114);
+  text-shadow: 2px 2px 4px gray;
+
+}
+
+.text-blue{
+  color: skyblue;
+
+}
+
+.text-red{
+  color: rgb(255,192,203);
+}
