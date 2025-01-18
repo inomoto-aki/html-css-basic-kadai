@@ -1,0 +1,116 @@
+body{
+  min-width: 375px;
+  margin: 0;
+/*ヘッダー*/
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+#nav-pc{
+  font-size: 14px;
+}
+#nav-pc ul{
+  display: flex;
+  padding-left: 0;
+}
+#nav-pc li{
+  list-style: none;
+}
+/*ナビゲーションのリンクの装飾設定*/
+#nav-pc a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: #0d0d0d;
+}
+#nave-pc a:hover{
+  text-decoration: underline;
+}
+/*メインビジュアル*/
+#main-visual{
+position: relative;
+height: 400px;
+}
+#main-visual > img{
+  width: 100%;
+}
+/*pc用のスタイル*/
+@media screen and (min-width: 768px){
+#menu-sp{
+  display: none;
+}
+#nav-sp{
+  display: none;
+}
+
+}
+/*sp用スタイル*/
+@media screen and(max-width: 767px) {
+/*pc用ナビゲーション非表示*/
+#nav-pc{
+  display: none;
+}
+/*スマホ用ナビゲーション*/
+#nav-sp{
+  background-color: #ce933e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 100;
+
+}
+/*ハンバーガーメニュー*/
+#menu-sp{
+  display: block;
+  float: right;
+  padding: 0;
+}
+/*×ボタン*/
+#colsa{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  background-color: tranparent;
+  border: none;
+}
+#nav-sp ul{
+  padding-left: 0;
+}
+
+#nav-sp li{
+  list-style: none;
+}
+#log-sp{
+  margin: 80px 0 30px 20px;
+}
+#nav-sp a{
+  display: block;
+}
+#nav-sp a:link{
+  color: #ffffff;
+}
+#nav-sp a:visited{
+  color: #ffffff;
+}
+#nav-sp a:hover{
+  text-decoration: underline;
+}
+#nav-sp a:active{
+  color: #ffffff;
+}
+#nav-sp .menu{
+  text-decoration: none;
+  display: block;
+  margin: 0 20px 0 20px;
+  height: 44px;
+  font-size: 16px;
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+}
+  
